@@ -57,12 +57,14 @@
         </div>
         <div class="row">
           <div class="col-md-4" *ngFor="let skill of cloudSkills">
-            <div class="progress-container progress-primary">
+            <div class="progress-container progress-primary" title={{skill.score}}>
               <span class="progress-badge">{{skill.name}}</span>
+              <!-- <span> <img src="assets/images/react.png" align="right"/></span> -->
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" 
                   data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                  [ngStyle]="{'width': skill.score, 'background': skill.color}"></div>
+                  [ngStyle]="{'width': skill.score, 'background': skill.color}">
+                </div>
                 <!-- <span class="progress-value">{{skill.score}}</span> -->
               </div>
             </div>

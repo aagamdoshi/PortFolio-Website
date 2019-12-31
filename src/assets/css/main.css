@@ -1232,8 +1232,9 @@ textarea.form-control:focus, textarea.form-control:active {
 
 .progress-container .progress-badge {
   color: #888;
-  font-size: 0.8571em;
-  text-transform: uppercase;
+  font-size: 0.9em;
+  text-shadow: aqua;
+  font-weight: 500;
 }
 
 .progress-container .progress {
