@@ -1,0 +1,8 @@
+Live view URL of Portfolio
+https://aagam30794.web.app/
+
+Cmd command to create dist folder and deploy it directly to aagam30794.web.app:
+ npm run deploy
+ 
+Check deployment in firebase console:
+https://console.firebase.google.com/project/angular-hosting-app-de/hosting/sites/aagam30794
