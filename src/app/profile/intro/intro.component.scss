@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+html, body { height: 100%; }
+
+/* Position the element and psuedo on top of each other and centers on screen */
+.here, .here::after {
+  position: absolute;
+  top: 68px;
+  bottom: 0;
+  display: table;
+  margin: auto;
+  width: 100%;
+}
+
+.here { 
+  z-index: 1;
+//   color: hsl(357, 85%, 80%);
+  color: whitesmoke;
+  text-align: center;
+  font-size: 60px; 
+  font-family: 'Sacramento', cursive;
+  letter-spacing: -1px;
+  
+}
+
+/* Set the psuedoelement beneath parent */
+.here::after {
+  z-index: -1;
+  content: attr(data-content);
+}
+body {
+
+    text-align: center;
+    color:#fff;
+  }
+  
+  * { color:#fff; text-decoration: none;}
