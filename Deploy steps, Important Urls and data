@@ -1,0 +1,23 @@
+
+Step 1. Add this command in angular.json file
+ "deploy": "ng build --prod && firebase deploy"
+ 
+Step 2. Update angular.json
+ "outputPath": "dist"
+ 
+Step 3. In firebase.json add the 2 lines
+
+name of site . eg: aagam30794 , and update the public folder to dist.
+  "site":"aagam30794",
+    "public": "dist",
+
+Step 4. Cmd command to create dist folder and deploy it directly to aagam30794.web.app:
+ npm run deploy
+ 
+ Now you can view the site.
+ 
+Live view URL of Portfolio
+https://aagam30794.web.app/
+
+Check deployment in firebase console:
+https://console.firebase.google.com/project/angular-hosting-app-de/hosting/sites/aagam30794
