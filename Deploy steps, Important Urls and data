@@ -8,8 +8,8 @@ Step 2. Local development (if you see Internal Server Error, use dev:clean)
  Open the URL shown in terminal (often http://localhost:3000)
 
 Step 3. Environment variables — copy .env.local.example to .env.local and set:
- - NEXT_PUBLIC_FORMSPREE_ID (contact form, optional)
- - NEXT_PUBLIC_GA_MEASUREMENT_ID (Google Analytics, e.g. G-XXXXXXXXXX)
+ - NEXT_PUBLIC_GA_MEASUREMENT_ID (Google Analytics)
+ - NEXT_PUBLIC_FORMSPREE_ID (contact form)
 
 Step 4. Deploy to Firebase (updates live site)
  npx firebase-tools login

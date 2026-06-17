@@ -18,6 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://aagam30794.web.app"),
   title: "Aagam Doshi | Lead Software Engineer",
   description:
     "Lead Software Engineer specializing in GenAI systems, distributed systems, and cloud architecture. Nearly a decade of experience building scalable, cloud-native platforms.",
