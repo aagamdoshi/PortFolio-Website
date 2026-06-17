@@ -1,28 +1,50 @@
-# Documentation 
+# Aagam Doshi — Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) `version 8.0.1`.
+Futuristic personal portfolio built with Next.js 15, React Three Fiber, GSAP, and Lenis smooth scroll.
 
-Deployment is done using Firebase App
+**Live:** [aagam30794.web.app](https://aagam30794.web.app/)
 
-Screenshot of the Portfolio Website ![Reference image](https://github.com/aagamdoshi/PortFolio-Website/blob/master/src/assets/images/fullSS.PNG) design, UI, UX, for viewing my complete portfolio
+## Tech Stack
 
+- Next.js 15 (static export)
+- React Three Fiber + Three.js (3D hero)
+- GSAP + ScrollTrigger (scroll animations)
+- Lenis (smooth scroll)
+- Tailwind CSS 4
+- Firebase Hosting
 
-## Demo
+## Development
 
-For Live Demo do visit :
-https://aagam30794.web.app/
+```bash
+npm install
+npm run dev
+```
 
+Open [http://localhost:3000](http://localhost:3000).
 
-## Technology Used
+## Contact Form Setup
 
-`Angular 8`
-`Firebase`
-`ng-admin UI`
-`JavaScript`
-`Bootstrap`
+1. Create a form at [formspree.io](https://formspree.io)
+2. Copy `.env.local.example` to `.env.local`
+3. Set `NEXT_PUBLIC_FORMSPREE_ID` to your form ID
 
-## Development server
+## Deploy to Firebase
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
+npm run deploy
+```
 
+This runs `next build` (outputs to `out/`) and `npx firebase-tools deploy` to site `aagam30794`.
 
+Firebase console: [angular-hosting-app-de hosting](https://console.firebase.google.com/project/angular-hosting-app-de/hosting/sites/aagam30794)
+
+## Project Structure
+
+- `app/` — Next.js app router pages and global styles
+- `components/` — UI, sections, 3D scene, layout
+- `content/portfolio.ts` — Single source of truth for all resume content
+- `public/images/` — Project and community images
+
+## Updating Content
+
+Edit `content/portfolio.ts` to update experience, skills, projects, and contact info.

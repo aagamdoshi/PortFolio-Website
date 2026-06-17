@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="#0d1117"/>
+  <rect width="800" height="450" fill="url(#g)"/>
+  <text x="400" y="220" text-anchor="middle" fill="#a78bfa" font-family="system-ui" font-size="24" font-weight="600">GEP Hackathon 2018</text>
+  <text x="400" y="260" text-anchor="middle" fill="#8b949e" font-family="system-ui" font-size="16">AI Chatbot · 2nd Runner Up</text>
+</svg>
